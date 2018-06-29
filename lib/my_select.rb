@@ -1,3 +1,3 @@
 def my_select(collection)
-  collection.select {|num| numeven?
+  collection.select {|num| num.even?}
 end
